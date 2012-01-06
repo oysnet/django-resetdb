@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-import dbsync
+import resetdb
 
 CLASSIFIERS = [
     'Intended Audience :: Developers',    
@@ -13,11 +13,11 @@ CLASSIFIERS = [
 KEYWORDS = 'django syncdb innodb mysql drop table'
 
 
-setup(name = 'dbsync',
-    version = dbsync.__version__,
+setup(name = 'resetdb',
+    version = resetdb.__version__,
     description = """Add ability to drop tables before syncdb""",
-    author = dbsync.__author__,
-    url = "https://github.com/oxys-net/django-dbsync",
+    author = resetdb.__author__,
+    url = "https://github.com/oxys-net/django-resetdb",
     packages = find_packages(),
     classifiers = CLASSIFIERS,
     keywords = KEYWORDS,
