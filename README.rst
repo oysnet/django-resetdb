@@ -10,14 +10,14 @@ Installation
 
 To install the latest stable version::
 
-	pip install -e git+https://github.com/oxys-net/django-dbsync#egg=django-dbsync
+	pip install -e git+https://github.com/oxys-net/django-resetdb#egg=django-resetdb
 
 
-You will need to include ``dbsync`` in your ``INSTALLED_APPS``::
+You will need to include ``resetdb`` in your ``INSTALLED_APPS``::
 
 	INSTALLED_APPS = (
 	    ...
-	    'dbsync',            
+	    'resetdb',            
 	)
 
 
@@ -25,5 +25,5 @@ You will need to include ``dbsync`` in your ``INSTALLED_APPS``::
 Usage
 -----
 
-	./manage.py help dbsync 
+	./manage.py help resetdb 
 	
