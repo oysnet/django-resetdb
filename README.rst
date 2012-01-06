@@ -25,5 +25,5 @@ You will need to include ``dbsync`` in your ``INSTALLED_APPS``::
 Usage
 -----
 
-	.manage.py help dbsync 
+	./manage.py help dbsync 
 	
