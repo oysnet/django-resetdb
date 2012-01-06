@@ -13,7 +13,7 @@ CLASSIFIERS = [
 KEYWORDS = 'django syncdb innodb mysql drop table'
 
 
-setup(name = 'mailsnake',
+setup(name = 'dbsync',
     version = dbsync.__version__,
     description = """Add ability to drop tables before syncdb""",
     author = dbsync.__author__,
