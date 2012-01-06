@@ -2,7 +2,7 @@
 About
 -----
 
-Allow to drap tables before syncdb
+Allow to drop tables before syncdb
 
 ------------
 Installation
