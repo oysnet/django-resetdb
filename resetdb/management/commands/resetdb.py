@@ -2,7 +2,10 @@
 from optparse import make_option
 from django.core.management import call_command
 from django.conf import settings
-from django.core.management.commands.syncdb import Command as Syncdb
+try:
+    from south.management.commands.syncdb import Command as Syncdb
+except:
+    from django.core.management.commands.syncdb import Command as Syncdb
 from django.db import connections
 
 class Command(Syncdb):
